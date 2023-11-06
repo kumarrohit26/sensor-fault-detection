@@ -1,2 +1,2 @@
 DATABASE_NAME = 'playground'
-COLLECTION_NAME = 'car'
+COLLECTION_NAME = 'sensor'
