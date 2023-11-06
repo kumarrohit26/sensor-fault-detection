@@ -9,4 +9,5 @@ xgboost==1.6.2
 catboost
 imblearn==0.0
 PyYAML
+dill
 -e .
