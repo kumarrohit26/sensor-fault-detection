@@ -10,4 +10,5 @@ catboost
 imblearn==0.0
 PyYAML
 dill
+miceforest
 -e .
