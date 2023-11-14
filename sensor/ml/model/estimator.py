@@ -26,7 +26,7 @@ class SensorModel:
         
     def predict(self, x):
         try:
-            x_transformed = self.preprocessor.trasform(x)
+            x_transformed = self.preprocessor.transform(x)
             y_pred = self.model.predict(x_transformed)
             return y_pred
         except Exception as e:

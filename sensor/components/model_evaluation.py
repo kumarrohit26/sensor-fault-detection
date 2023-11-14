@@ -72,7 +72,7 @@ class ModelEvaluation:
                     improved_accuracy=improved_accuracy, 
                     best_model_path=latest_model_path, 
                     trained_model_path=train_model_file_path, 
-                    train_model_metric_artifact=trained_metric, 
+                    trained_model_metric_artifact=trained_metric, 
                     best_model_metric_artifact=latest_metric)
 
             model_eval_report = model_evaluation_artifact.__dict__
