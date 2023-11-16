@@ -49,7 +49,7 @@ git clone https://github.com/kumarrohit26/sensor-fault-detection.git
 ### Step 2- Create a conda environment after opening the repository
 
 ```bash
-conda create -n venv python=3.8 -y
+conda create -p venv python=3.8 -y
 ```
 
 ```bash
