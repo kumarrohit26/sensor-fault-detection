@@ -44,7 +44,6 @@ class ModelResolver:
         try:
             timestamps = list(map(int, os.listdir(self.model_dir)))
             latest_timestamp = max(timestamps)
-            print('latest timestamp ', latest_timestamp)
             latest_model_path = os.path.join(self.model_dir, f'{latest_timestamp}', MODEL_FILE_NAME)
             return latest_model_path
         except Exception as e:
